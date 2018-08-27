@@ -9,9 +9,17 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <style type="text/css">
       .placeholder {
-        background-color: rgb(200,200,255);
+
         border: 2px solid rgb(50,50,100);
       }
+      section h2{
+        background-color: white;
+        border: 3px solid rgb(40,100,40);
+        font-size:12px;
+        text-align: left;
+        text-transform: uppercase;
+      }
+      
     </style>
     <title>Project Dashboard</title>
   </head>
@@ -26,12 +34,19 @@
         <div class="col placeholder">
           Completion %
       </div>
-        <div class="col placeholder">
-          Due Date | Days Remaining
+
+        <section class="col placeholder">
+          <h2>Target Date</h2>
+          <div class="row">
+            <span class="label">Date:</span>
+            <span class="data">11/1/18</span>
+          </div>
+        <div>
+         Days Remaining
         </div>
-        <div class="col placeholder">
-          Status
-        </div>
+      <div class="col">
+        Status
+      </div>
       </div>
       <div class="row">
         <div class="col placeholder">
