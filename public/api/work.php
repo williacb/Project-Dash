@@ -1,6 +1,9 @@
 <?php
 require '../../app/common.php';
 
+if ($_SERVER['REQUEST_METHOD'] =='POST'){
+    require
+
 $taskId = intval($_GET['taskId'] ?? 0);
 
 if ($taskId < 1) {
